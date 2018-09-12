@@ -1,7 +1,10 @@
 import java.util.Map;
 import java.util.TreeMap;
 
-// Manager
+/* Manager
+ 작고 많이 쓰이는 객체를 공유하여 사용
+    ex) 문서 편집기에서 각 글자들 스타일과 글자크기는 공유, 위치는 개별로
+*/
 public class FlyweightFactory {
     Map<String, Flyweight> pool;
 
